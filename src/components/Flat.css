@@ -1,0 +1,36 @@
+.flat {
+  border: 1px solid var(--primary-red);
+  border-radius: 8px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: 300ms;
+  background-color: var(--primary-red);
+  color: #fff;
+}
+
+.flat.selected {
+  background-color: var(--secondary-red);
+  border-color: var(--secondary-red);
+}
+
+.flat-name {
+  padding: 16px;
+}
+
+.flat-image {
+  overflow: hidden;
+}
+
+.flat-image img {
+  display: block;
+  width: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  transform: scale(1.1);
+  transition: 300ms;
+}
+
+.flat:hover img,
+.flat.selected img {
+  transform: scale(1);
+}

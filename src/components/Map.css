@@ -1,0 +1,14 @@
+.price {
+  font-weight: bold;
+  background-color: var(--primary-red);
+  display: inline-block;
+  padding: 4px 8px;
+  border-radius: 4px;
+  color: #fff;
+  margin-bottom: 8px;
+}
+
+.name {
+  font-size: 1.2rem;
+  padding: 16px 0;
+}
